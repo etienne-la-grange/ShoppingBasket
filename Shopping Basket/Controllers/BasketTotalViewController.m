@@ -42,7 +42,7 @@ static NSString *tableViewFooterIdentifier = @"BasketTotalFooterReuseIdentifier"
     [super viewWillAppear:animated];
     //we refresh the view in case the user has come from the currencyselector view, or in case the user has fixed network, so it refreshes
     //we could also rather add NSNotification when the currencies have downloaded/refreshed to reload the view, but did not enough time to implement this.
-    [self performSelector:@selector(referenceView)];
+    [self performSelector:@selector(refreshTheView)];
     [self performSelector:@selector(refreshTheView) withObject:NULL afterDelay:10];
 }
 
