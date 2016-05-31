@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00C109511CFD6390000B4707"
+               BlueprintIdentifier = "00C108871CFB4FD5000B4707"
                BuildableName = "Shopping Basket.app"
                BlueprintName = "Shopping Basket"
                ReferencedContainer = "container:Shopping Basket.xcodeproj">
@@ -32,9 +32,19 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00C1096A1CFD6390000B4707"
+               BlueprintIdentifier = "00C108A01CFB4FD5000B4707"
                BuildableName = "Shopping BasketTests.xctest"
                BlueprintName = "Shopping BasketTests"
+               ReferencedContainer = "container:Shopping Basket.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "00C108AB1CFB4FD5000B4707"
+               BuildableName = "Shopping BasketUITests.xctest"
+               BlueprintName = "Shopping BasketUITests"
                ReferencedContainer = "container:Shopping Basket.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "00C109511CFD6390000B4707"
+            BlueprintIdentifier = "00C108871CFB4FD5000B4707"
             BuildableName = "Shopping Basket.app"
             BlueprintName = "Shopping Basket"
             ReferencedContainer = "container:Shopping Basket.xcodeproj">
@@ -65,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "00C109511CFD6390000B4707"
+            BlueprintIdentifier = "00C108871CFB4FD5000B4707"
             BuildableName = "Shopping Basket.app"
             BlueprintName = "Shopping Basket"
             ReferencedContainer = "container:Shopping Basket.xcodeproj">
@@ -84,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "00C109511CFD6390000B4707"
+            BlueprintIdentifier = "00C108871CFB4FD5000B4707"
             BuildableName = "Shopping Basket.app"
             BlueprintName = "Shopping Basket"
             ReferencedContainer = "container:Shopping Basket.xcodeproj">

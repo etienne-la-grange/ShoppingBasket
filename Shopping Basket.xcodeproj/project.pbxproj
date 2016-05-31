@@ -7,50 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00C109571CFD6390000B4707 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C109561CFD6390000B4707 /* main.m */; };
-		00C1095A1CFD6390000B4707 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C109591CFD6390000B4707 /* AppDelegate.m */; };
-		00C1095D1CFD6390000B4707 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C1095C1CFD6390000B4707 /* ViewController.m */; };
-		00C109601CFD6390000B4707 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C1095E1CFD6390000B4707 /* Main.storyboard */; };
-		00C109621CFD6390000B4707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C109611CFD6390000B4707 /* Assets.xcassets */; };
-		00C109651CFD6390000B4707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C109631CFD6390000B4707 /* LaunchScreen.storyboard */; };
-		00C109701CFD6390000B4707 /* Shopping_BasketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C1096F1CFD6390000B4707 /* Shopping_BasketTests.m */; };
+		00C1088D1CFB4FD5000B4707 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C1088C1CFB4FD5000B4707 /* main.m */; };
+		00C108901CFB4FD5000B4707 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C1088F1CFB4FD5000B4707 /* AppDelegate.m */; };
+		00C108961CFB4FD5000B4707 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C108941CFB4FD5000B4707 /* Main.storyboard */; };
+		00C108981CFB4FD5000B4707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C108971CFB4FD5000B4707 /* Assets.xcassets */; };
+		00C1089B1CFB4FD5000B4707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C108991CFB4FD5000B4707 /* LaunchScreen.storyboard */; };
+		00C108C11CFB5250000B4707 /* BasketItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C108C01CFB5250000B4707 /* BasketItem.m */; };
+		00C108D11CFB5C6A000B4707 /* BasketListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C108D01CFB5C6A000B4707 /* BasketListTableViewCell.m */; };
+		00C108D71CFB6806000B4707 /* BasketListService.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C108D61CFB6806000B4707 /* BasketListService.m */; };
+		00C108DA1CFB7779000B4707 /* BasketListTableViewHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C108D91CFB7779000B4707 /* BasketListTableViewHeaderCell.m */; };
+		00C108E01CFB7E5C000B4707 /* BasketListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C108DF1CFB7E5C000B4707 /* BasketListViewController.m */; };
+		00C108E31CFB81AA000B4707 /* BasketTotalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C108E21CFB81AA000B4707 /* BasketTotalViewController.m */; };
+		00C108E61CFB8523000B4707 /* BasketTotalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C108E51CFB8523000B4707 /* BasketTotalTableViewCell.m */; };
+		00C108E91CFB87EB000B4707 /* CurrencyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C108E81CFB87EB000B4707 /* CurrencyTableViewController.m */; };
+		00C108EF1CFB8C6D000B4707 /* CurrencyItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C108EE1CFB8C6D000B4707 /* CurrencyItem.m */; };
+		00C108F21CFB8D57000B4707 /* CurrencyService.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C108F11CFB8D57000B4707 /* CurrencyService.m */; };
+		00C108F51CFB8E62000B4707 /* CurrencyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C108F41CFB8E62000B4707 /* CurrencyTableViewCell.m */; };
+		00C108F81CFB8F85000B4707 /* CurrencyHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C108F71CFB8F85000B4707 /* CurrencyHeaderTableViewCell.m */; };
+		00C109011CFC3271000B4707 /* NSString+Calculation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C109001CFC3271000B4707 /* NSString+Calculation.m */; };
+		00C109041CFC5407000B4707 /* BasketTotalTableViewFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C109031CFC5407000B4707 /* BasketTotalTableViewFooterCell.m */; };
+		00C1090B1CFCF251000B4707 /* NSString_CalculationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C1090A1CFCF251000B4707 /* NSString_CalculationTests.m */; };
+		00C1090D1CFCF3CC000B4707 /* BasketListServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C1090C1CFCF3CC000B4707 /* BasketListServiceTests.m */; };
+		00C1090F1CFCF588000B4707 /* BasketItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C1090E1CFCF588000B4707 /* BasketItemTests.m */; };
+		00C109111CFCF6B7000B4707 /* CurrencyItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C109101CFCF6B7000B4707 /* CurrencyItemTests.m */; };
+		00C109131CFCF802000B4707 /* BasketListViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C109121CFCF802000B4707 /* BasketListViewControllerTests.m */; };
+		00C109151CFCFD0F000B4707 /* BasketTotalViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C109141CFCFD0F000B4707 /* BasketTotalViewControllerTests.m */; };
+		00C109171CFCFDEF000B4707 /* CurrencyTableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C109161CFCFDEF000B4707 /* CurrencyTableViewControllerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00C1096C1CFD6390000B4707 /* PBXContainerItemProxy */ = {
+		00C108A21CFB4FD5000B4707 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 00C1094A1CFD6390000B4707 /* Project object */;
+			containerPortal = 00C108801CFB4FD5000B4707 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 00C109511CFD6390000B4707;
+			remoteGlobalIDString = 00C108871CFB4FD5000B4707;
 			remoteInfo = "Shopping Basket";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00C109521CFD6390000B4707 /* Shopping Basket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopping Basket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		00C109561CFD6390000B4707 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		00C109581CFD6390000B4707 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		00C109591CFD6390000B4707 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		00C1095B1CFD6390000B4707 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		00C1095C1CFD6390000B4707 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		00C1095F1CFD6390000B4707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		00C109611CFD6390000B4707 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		00C109641CFD6390000B4707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		00C109661CFD6390000B4707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00C1096B1CFD6390000B4707 /* Shopping BasketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopping BasketTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		00C1096F1CFD6390000B4707 /* Shopping_BasketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shopping_BasketTests.m; sourceTree = "<group>"; };
-		00C109711CFD6390000B4707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C108881CFB4FD5000B4707 /* Shopping Basket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopping Basket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C1088C1CFB4FD5000B4707 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00C1088E1CFB4FD5000B4707 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00C1088F1CFB4FD5000B4707 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00C108951CFB4FD5000B4707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00C108971CFB4FD5000B4707 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00C1089A1CFB4FD5000B4707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00C1089C1CFB4FD5000B4707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C108A11CFB4FD5000B4707 /* Shopping BasketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopping BasketTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C108A71CFB4FD5000B4707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C108C01CFB5250000B4707 /* BasketItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasketItem.m; path = Models/BasketItem.m; sourceTree = "<group>"; };
+		00C108C21CFB5293000B4707 /* BasketItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasketItem.h; path = Models/BasketItem.h; sourceTree = "<group>"; };
+		00C108CF1CFB5C6A000B4707 /* BasketListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasketListTableViewCell.h; path = Views/BasketListTableViewCell.h; sourceTree = "<group>"; };
+		00C108D01CFB5C6A000B4707 /* BasketListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasketListTableViewCell.m; path = Views/BasketListTableViewCell.m; sourceTree = "<group>"; };
+		00C108D51CFB6806000B4707 /* BasketListService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasketListService.h; path = Services/BasketListService.h; sourceTree = "<group>"; };
+		00C108D61CFB6806000B4707 /* BasketListService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasketListService.m; path = Services/BasketListService.m; sourceTree = "<group>"; };
+		00C108D81CFB7779000B4707 /* BasketListTableViewHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasketListTableViewHeaderCell.h; path = Views/BasketListTableViewHeaderCell.h; sourceTree = "<group>"; };
+		00C108D91CFB7779000B4707 /* BasketListTableViewHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasketListTableViewHeaderCell.m; path = Views/BasketListTableViewHeaderCell.m; sourceTree = "<group>"; };
+		00C108DE1CFB7E5C000B4707 /* BasketListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasketListViewController.h; path = Controllers/BasketListViewController.h; sourceTree = "<group>"; };
+		00C108DF1CFB7E5C000B4707 /* BasketListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasketListViewController.m; path = Controllers/BasketListViewController.m; sourceTree = "<group>"; };
+		00C108E11CFB81AA000B4707 /* BasketTotalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasketTotalViewController.h; path = Controllers/BasketTotalViewController.h; sourceTree = "<group>"; };
+		00C108E21CFB81AA000B4707 /* BasketTotalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasketTotalViewController.m; path = Controllers/BasketTotalViewController.m; sourceTree = "<group>"; };
+		00C108E41CFB8523000B4707 /* BasketTotalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasketTotalTableViewCell.h; path = Views/BasketTotalTableViewCell.h; sourceTree = "<group>"; };
+		00C108E51CFB8523000B4707 /* BasketTotalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasketTotalTableViewCell.m; path = Views/BasketTotalTableViewCell.m; sourceTree = "<group>"; };
+		00C108E71CFB87EB000B4707 /* CurrencyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrencyTableViewController.h; path = Controllers/CurrencyTableViewController.h; sourceTree = "<group>"; };
+		00C108E81CFB87EB000B4707 /* CurrencyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurrencyTableViewController.m; path = Controllers/CurrencyTableViewController.m; sourceTree = "<group>"; };
+		00C108ED1CFB8C6D000B4707 /* CurrencyItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrencyItem.h; path = Models/CurrencyItem.h; sourceTree = "<group>"; };
+		00C108EE1CFB8C6D000B4707 /* CurrencyItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurrencyItem.m; path = Models/CurrencyItem.m; sourceTree = "<group>"; };
+		00C108F01CFB8D57000B4707 /* CurrencyService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrencyService.h; path = Services/CurrencyService.h; sourceTree = "<group>"; };
+		00C108F11CFB8D57000B4707 /* CurrencyService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurrencyService.m; path = Services/CurrencyService.m; sourceTree = "<group>"; };
+		00C108F31CFB8E62000B4707 /* CurrencyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrencyTableViewCell.h; path = Views/CurrencyTableViewCell.h; sourceTree = "<group>"; };
+		00C108F41CFB8E62000B4707 /* CurrencyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurrencyTableViewCell.m; path = Views/CurrencyTableViewCell.m; sourceTree = "<group>"; };
+		00C108F61CFB8F85000B4707 /* CurrencyHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrencyHeaderTableViewCell.h; path = Views/CurrencyHeaderTableViewCell.h; sourceTree = "<group>"; };
+		00C108F71CFB8F85000B4707 /* CurrencyHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurrencyHeaderTableViewCell.m; path = Views/CurrencyHeaderTableViewCell.m; sourceTree = "<group>"; };
+		00C108FF1CFC3271000B4707 /* NSString+Calculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Calculation.h"; path = "Helpers/NSString+Calculation.h"; sourceTree = "<group>"; };
+		00C109001CFC3271000B4707 /* NSString+Calculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Calculation.m"; path = "Helpers/NSString+Calculation.m"; sourceTree = "<group>"; };
+		00C109021CFC5407000B4707 /* BasketTotalTableViewFooterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasketTotalTableViewFooterCell.h; path = Views/BasketTotalTableViewFooterCell.h; sourceTree = "<group>"; };
+		00C109031CFC5407000B4707 /* BasketTotalTableViewFooterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasketTotalTableViewFooterCell.m; path = Views/BasketTotalTableViewFooterCell.m; sourceTree = "<group>"; };
+		00C1090A1CFCF251000B4707 /* NSString_CalculationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_CalculationTests.m; sourceTree = "<group>"; };
+		00C1090C1CFCF3CC000B4707 /* BasketListServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasketListServiceTests.m; sourceTree = "<group>"; };
+		00C1090E1CFCF588000B4707 /* BasketItemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasketItemTests.m; sourceTree = "<group>"; };
+		00C109101CFCF6B7000B4707 /* CurrencyItemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyItemTests.m; sourceTree = "<group>"; };
+		00C109121CFCF802000B4707 /* BasketListViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasketListViewControllerTests.m; sourceTree = "<group>"; };
+		00C109141CFCFD0F000B4707 /* BasketTotalViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasketTotalViewControllerTests.m; sourceTree = "<group>"; };
+		00C109161CFCFDEF000B4707 /* CurrencyTableViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyTableViewControllerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00C1094F1CFD6390000B4707 /* Frameworks */ = {
+		00C108851CFB4FD5000B4707 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00C109681CFD6390000B4707 /* Frameworks */ = {
+		00C1089E1CFB4FD5000B4707 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,67 +111,163 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00C109491CFD6390000B4707 = {
+		00C1087F1CFB4FD5000B4707 = {
 			isa = PBXGroup;
 			children = (
-				00C109541CFD6390000B4707 /* Shopping Basket */,
-				00C1096E1CFD6390000B4707 /* Shopping BasketTests */,
-				00C109531CFD6390000B4707 /* Products */,
+				00C1088A1CFB4FD5000B4707 /* Shopping Basket */,
+				00C108A41CFB4FD5000B4707 /* Shopping BasketTests */,
+				00C108891CFB4FD5000B4707 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		00C109531CFD6390000B4707 /* Products */ = {
+		00C108891CFB4FD5000B4707 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00C109521CFD6390000B4707 /* Shopping Basket.app */,
-				00C1096B1CFD6390000B4707 /* Shopping BasketTests.xctest */,
+				00C108881CFB4FD5000B4707 /* Shopping Basket.app */,
+				00C108A11CFB4FD5000B4707 /* Shopping BasketTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00C109541CFD6390000B4707 /* Shopping Basket */ = {
+		00C1088A1CFB4FD5000B4707 /* Shopping Basket */ = {
 			isa = PBXGroup;
 			children = (
-				00C109581CFD6390000B4707 /* AppDelegate.h */,
-				00C109591CFD6390000B4707 /* AppDelegate.m */,
-				00C1095B1CFD6390000B4707 /* ViewController.h */,
-				00C1095C1CFD6390000B4707 /* ViewController.m */,
-				00C1095E1CFD6390000B4707 /* Main.storyboard */,
-				00C109611CFD6390000B4707 /* Assets.xcassets */,
-				00C109631CFD6390000B4707 /* LaunchScreen.storyboard */,
-				00C109661CFD6390000B4707 /* Info.plist */,
-				00C109551CFD6390000B4707 /* Supporting Files */,
+				00C108CB1CFB5584000B4707 /* Views */,
+				00C108CA1CFB557B000B4707 /* Services */,
+				00C108C91CFB5571000B4707 /* Helpers */,
+				00C108C81CFB5557000B4707 /* Controllers */,
+				00C108BF1CFB522B000B4707 /* Models */,
+				00C1088E1CFB4FD5000B4707 /* AppDelegate.h */,
+				00C1088F1CFB4FD5000B4707 /* AppDelegate.m */,
+				00C108941CFB4FD5000B4707 /* Main.storyboard */,
+				00C108971CFB4FD5000B4707 /* Assets.xcassets */,
+				00C108991CFB4FD5000B4707 /* LaunchScreen.storyboard */,
+				00C1089C1CFB4FD5000B4707 /* Info.plist */,
+				00C1088B1CFB4FD5000B4707 /* Supporting Files */,
 			);
 			path = "Shopping Basket";
 			sourceTree = "<group>";
 		};
-		00C109551CFD6390000B4707 /* Supporting Files */ = {
+		00C1088B1CFB4FD5000B4707 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				00C109561CFD6390000B4707 /* main.m */,
+				00C1088C1CFB4FD5000B4707 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		00C1096E1CFD6390000B4707 /* Shopping BasketTests */ = {
+		00C108A41CFB4FD5000B4707 /* Shopping BasketTests */ = {
 			isa = PBXGroup;
 			children = (
-				00C1096F1CFD6390000B4707 /* Shopping_BasketTests.m */,
-				00C109711CFD6390000B4707 /* Info.plist */,
+				00C108A71CFB4FD5000B4707 /* Info.plist */,
+				00C1090A1CFCF251000B4707 /* NSString_CalculationTests.m */,
+				00C1090C1CFCF3CC000B4707 /* BasketListServiceTests.m */,
+				00C1090E1CFCF588000B4707 /* BasketItemTests.m */,
+				00C109101CFCF6B7000B4707 /* CurrencyItemTests.m */,
+				00C109121CFCF802000B4707 /* BasketListViewControllerTests.m */,
+				00C109141CFCFD0F000B4707 /* BasketTotalViewControllerTests.m */,
+				00C109161CFCFDEF000B4707 /* CurrencyTableViewControllerTests.m */,
 			);
 			path = "Shopping BasketTests";
+			sourceTree = "<group>";
+		};
+		00C108BF1CFB522B000B4707 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				00C108C21CFB5293000B4707 /* BasketItem.h */,
+				00C108C01CFB5250000B4707 /* BasketItem.m */,
+				00C108ED1CFB8C6D000B4707 /* CurrencyItem.h */,
+				00C108EE1CFB8C6D000B4707 /* CurrencyItem.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		00C108C81CFB5557000B4707 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				00C108DE1CFB7E5C000B4707 /* BasketListViewController.h */,
+				00C108DF1CFB7E5C000B4707 /* BasketListViewController.m */,
+				00C108E11CFB81AA000B4707 /* BasketTotalViewController.h */,
+				00C108E21CFB81AA000B4707 /* BasketTotalViewController.m */,
+				00C108E71CFB87EB000B4707 /* CurrencyTableViewController.h */,
+				00C108E81CFB87EB000B4707 /* CurrencyTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		00C108C91CFB5571000B4707 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				00C108FF1CFC3271000B4707 /* NSString+Calculation.h */,
+				00C109001CFC3271000B4707 /* NSString+Calculation.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		00C108CA1CFB557B000B4707 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				00C108D51CFB6806000B4707 /* BasketListService.h */,
+				00C108D61CFB6806000B4707 /* BasketListService.m */,
+				00C108F01CFB8D57000B4707 /* CurrencyService.h */,
+				00C108F11CFB8D57000B4707 /* CurrencyService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		00C108CB1CFB5584000B4707 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00C109071CFCDFB3000B4707 /* CurrencyView */,
+				00C109061CFCDFA1000B4707 /* BasketTotalView */,
+				00C109051CFCDF88000B4707 /* BasketListTableView */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		00C109051CFCDF88000B4707 /* BasketListTableView */ = {
+			isa = PBXGroup;
+			children = (
+				00C108CF1CFB5C6A000B4707 /* BasketListTableViewCell.h */,
+				00C108D01CFB5C6A000B4707 /* BasketListTableViewCell.m */,
+				00C108D81CFB7779000B4707 /* BasketListTableViewHeaderCell.h */,
+				00C108D91CFB7779000B4707 /* BasketListTableViewHeaderCell.m */,
+			);
+			name = BasketListTableView;
+			sourceTree = "<group>";
+		};
+		00C109061CFCDFA1000B4707 /* BasketTotalView */ = {
+			isa = PBXGroup;
+			children = (
+				00C108E41CFB8523000B4707 /* BasketTotalTableViewCell.h */,
+				00C108E51CFB8523000B4707 /* BasketTotalTableViewCell.m */,
+				00C109021CFC5407000B4707 /* BasketTotalTableViewFooterCell.h */,
+				00C109031CFC5407000B4707 /* BasketTotalTableViewFooterCell.m */,
+			);
+			name = BasketTotalView;
+			sourceTree = "<group>";
+		};
+		00C109071CFCDFB3000B4707 /* CurrencyView */ = {
+			isa = PBXGroup;
+			children = (
+				00C108F31CFB8E62000B4707 /* CurrencyTableViewCell.h */,
+				00C108F41CFB8E62000B4707 /* CurrencyTableViewCell.m */,
+				00C108F61CFB8F85000B4707 /* CurrencyHeaderTableViewCell.h */,
+				00C108F71CFB8F85000B4707 /* CurrencyHeaderTableViewCell.m */,
+			);
+			name = CurrencyView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00C109511CFD6390000B4707 /* Shopping Basket */ = {
+		00C108871CFB4FD5000B4707 /* Shopping Basket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00C109741CFD6390000B4707 /* Build configuration list for PBXNativeTarget "Shopping Basket" */;
+			buildConfigurationList = 00C108B51CFB4FD5000B4707 /* Build configuration list for PBXNativeTarget "Shopping Basket" */;
 			buildPhases = (
-				00C1094E1CFD6390000B4707 /* Sources */,
-				00C1094F1CFD6390000B4707 /* Frameworks */,
-				00C109501CFD6390000B4707 /* Resources */,
+				00C108841CFB4FD5000B4707 /* Sources */,
+				00C108851CFB4FD5000B4707 /* Frameworks */,
+				00C108861CFB4FD5000B4707 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -128,46 +275,46 @@
 			);
 			name = "Shopping Basket";
 			productName = "Shopping Basket";
-			productReference = 00C109521CFD6390000B4707 /* Shopping Basket.app */;
+			productReference = 00C108881CFB4FD5000B4707 /* Shopping Basket.app */;
 			productType = "com.apple.product-type.application";
 		};
-		00C1096A1CFD6390000B4707 /* Shopping BasketTests */ = {
+		00C108A01CFB4FD5000B4707 /* Shopping BasketTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00C109771CFD6390000B4707 /* Build configuration list for PBXNativeTarget "Shopping BasketTests" */;
+			buildConfigurationList = 00C108B81CFB4FD5000B4707 /* Build configuration list for PBXNativeTarget "Shopping BasketTests" */;
 			buildPhases = (
-				00C109671CFD6390000B4707 /* Sources */,
-				00C109681CFD6390000B4707 /* Frameworks */,
-				00C109691CFD6390000B4707 /* Resources */,
+				00C1089D1CFB4FD5000B4707 /* Sources */,
+				00C1089E1CFB4FD5000B4707 /* Frameworks */,
+				00C1089F1CFB4FD5000B4707 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				00C1096D1CFD6390000B4707 /* PBXTargetDependency */,
+				00C108A31CFB4FD5000B4707 /* PBXTargetDependency */,
 			);
 			name = "Shopping BasketTests";
 			productName = "Shopping BasketTests";
-			productReference = 00C1096B1CFD6390000B4707 /* Shopping BasketTests.xctest */;
+			productReference = 00C108A11CFB4FD5000B4707 /* Shopping BasketTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		00C1094A1CFD6390000B4707 /* Project object */ = {
+		00C108801CFB4FD5000B4707 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Etienne la Grange";
 				TargetAttributes = {
-					00C109511CFD6390000B4707 = {
+					00C108871CFB4FD5000B4707 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
-					00C1096A1CFD6390000B4707 = {
+					00C108A01CFB4FD5000B4707 = {
 						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 00C109511CFD6390000B4707;
+						TestTargetID = 00C108871CFB4FD5000B4707;
 					};
 				};
 			};
-			buildConfigurationList = 00C1094D1CFD6390000B4707 /* Build configuration list for PBXProject "Shopping Basket" */;
+			buildConfigurationList = 00C108831CFB4FD5000B4707 /* Build configuration list for PBXProject "Shopping Basket" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -175,29 +322,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 00C109491CFD6390000B4707;
-			productRefGroup = 00C109531CFD6390000B4707 /* Products */;
+			mainGroup = 00C1087F1CFB4FD5000B4707;
+			productRefGroup = 00C108891CFB4FD5000B4707 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00C109511CFD6390000B4707 /* Shopping Basket */,
-				00C1096A1CFD6390000B4707 /* Shopping BasketTests */,
+				00C108871CFB4FD5000B4707 /* Shopping Basket */,
+				00C108A01CFB4FD5000B4707 /* Shopping BasketTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00C109501CFD6390000B4707 /* Resources */ = {
+		00C108861CFB4FD5000B4707 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C109651CFD6390000B4707 /* LaunchScreen.storyboard in Resources */,
-				00C109621CFD6390000B4707 /* Assets.xcassets in Resources */,
-				00C109601CFD6390000B4707 /* Main.storyboard in Resources */,
+				00C1089B1CFB4FD5000B4707 /* LaunchScreen.storyboard in Resources */,
+				00C108981CFB4FD5000B4707 /* Assets.xcassets in Resources */,
+				00C108961CFB4FD5000B4707 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00C109691CFD6390000B4707 /* Resources */ = {
+		00C1089F1CFB4FD5000B4707 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,47 +354,66 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00C1094E1CFD6390000B4707 /* Sources */ = {
+		00C108841CFB4FD5000B4707 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C1095D1CFD6390000B4707 /* ViewController.m in Sources */,
-				00C1095A1CFD6390000B4707 /* AppDelegate.m in Sources */,
-				00C109571CFD6390000B4707 /* main.m in Sources */,
+				00C108DA1CFB7779000B4707 /* BasketListTableViewHeaderCell.m in Sources */,
+				00C108E91CFB87EB000B4707 /* CurrencyTableViewController.m in Sources */,
+				00C109011CFC3271000B4707 /* NSString+Calculation.m in Sources */,
+				00C109041CFC5407000B4707 /* BasketTotalTableViewFooterCell.m in Sources */,
+				00C108E61CFB8523000B4707 /* BasketTotalTableViewCell.m in Sources */,
+				00C108E01CFB7E5C000B4707 /* BasketListViewController.m in Sources */,
+				00C108C11CFB5250000B4707 /* BasketItem.m in Sources */,
+				00C108901CFB4FD5000B4707 /* AppDelegate.m in Sources */,
+				00C108F21CFB8D57000B4707 /* CurrencyService.m in Sources */,
+				00C108EF1CFB8C6D000B4707 /* CurrencyItem.m in Sources */,
+				00C108F51CFB8E62000B4707 /* CurrencyTableViewCell.m in Sources */,
+				00C108D71CFB6806000B4707 /* BasketListService.m in Sources */,
+				00C1088D1CFB4FD5000B4707 /* main.m in Sources */,
+				00C108D11CFB5C6A000B4707 /* BasketListTableViewCell.m in Sources */,
+				00C108E31CFB81AA000B4707 /* BasketTotalViewController.m in Sources */,
+				00C108F81CFB8F85000B4707 /* CurrencyHeaderTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00C109671CFD6390000B4707 /* Sources */ = {
+		00C1089D1CFB4FD5000B4707 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C109701CFD6390000B4707 /* Shopping_BasketTests.m in Sources */,
+				00C109171CFCFDEF000B4707 /* CurrencyTableViewControllerTests.m in Sources */,
+				00C1090B1CFCF251000B4707 /* NSString_CalculationTests.m in Sources */,
+				00C109131CFCF802000B4707 /* BasketListViewControllerTests.m in Sources */,
+				00C109151CFCFD0F000B4707 /* BasketTotalViewControllerTests.m in Sources */,
+				00C1090F1CFCF588000B4707 /* BasketItemTests.m in Sources */,
+				00C1090D1CFCF3CC000B4707 /* BasketListServiceTests.m in Sources */,
+				00C109111CFCF6B7000B4707 /* CurrencyItemTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		00C1096D1CFD6390000B4707 /* PBXTargetDependency */ = {
+		00C108A31CFB4FD5000B4707 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 00C109511CFD6390000B4707 /* Shopping Basket */;
-			targetProxy = 00C1096C1CFD6390000B4707 /* PBXContainerItemProxy */;
+			target = 00C108871CFB4FD5000B4707 /* Shopping Basket */;
+			targetProxy = 00C108A21CFB4FD5000B4707 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		00C1095E1CFD6390000B4707 /* Main.storyboard */ = {
+		00C108941CFB4FD5000B4707 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				00C1095F1CFD6390000B4707 /* Base */,
+				00C108951CFB4FD5000B4707 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		00C109631CFD6390000B4707 /* LaunchScreen.storyboard */ = {
+		00C108991CFB4FD5000B4707 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				00C109641CFD6390000B4707 /* Base */,
+				00C1089A1CFB4FD5000B4707 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -255,7 +421,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		00C109721CFD6390000B4707 /* Debug */ = {
+		00C108B31CFB4FD5000B4707 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -299,7 +465,7 @@
 			};
 			name = Debug;
 		};
-		00C109731CFD6390000B4707 /* Release */ = {
+		00C108B41CFB4FD5000B4707 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -337,7 +503,7 @@
 			};
 			name = Release;
 		};
-		00C109751CFD6390000B4707 /* Debug */ = {
+		00C108B61CFB4FD5000B4707 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -348,7 +514,7 @@
 			};
 			name = Debug;
 		};
-		00C109761CFD6390000B4707 /* Release */ = {
+		00C108B71CFB4FD5000B4707 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -359,7 +525,7 @@
 			};
 			name = Release;
 		};
-		00C109781CFD6390000B4707 /* Debug */ = {
+		00C108B91CFB4FD5000B4707 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -371,7 +537,7 @@
 			};
 			name = Debug;
 		};
-		00C109791CFD6390000B4707 /* Release */ = {
+		00C108BA1CFB4FD5000B4707 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -386,32 +552,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00C1094D1CFD6390000B4707 /* Build configuration list for PBXProject "Shopping Basket" */ = {
+		00C108831CFB4FD5000B4707 /* Build configuration list for PBXProject "Shopping Basket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00C109721CFD6390000B4707 /* Debug */,
-				00C109731CFD6390000B4707 /* Release */,
+				00C108B31CFB4FD5000B4707 /* Debug */,
+				00C108B41CFB4FD5000B4707 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00C109741CFD6390000B4707 /* Build configuration list for PBXNativeTarget "Shopping Basket" */ = {
+		00C108B51CFB4FD5000B4707 /* Build configuration list for PBXNativeTarget "Shopping Basket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00C109751CFD6390000B4707 /* Debug */,
-				00C109761CFD6390000B4707 /* Release */,
+				00C108B61CFB4FD5000B4707 /* Debug */,
+				00C108B71CFB4FD5000B4707 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		00C109771CFD6390000B4707 /* Build configuration list for PBXNativeTarget "Shopping BasketTests" */ = {
+		00C108B81CFB4FD5000B4707 /* Build configuration list for PBXNativeTarget "Shopping BasketTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00C109781CFD6390000B4707 /* Debug */,
-				00C109791CFD6390000B4707 /* Release */,
+				00C108B91CFB4FD5000B4707 /* Debug */,
+				00C108BA1CFB4FD5000B4707 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 00C1094A1CFD6390000B4707 /* Project object */;
+	rootObject = 00C108801CFB4FD5000B4707 /* Project object */;
 }

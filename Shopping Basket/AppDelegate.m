@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  Shopping Basket
 //
-//  Created by Etienne La Grange on 5/31/16.
+//  Created by Etienne La Grange on 5/29/16.
 //  Copyright © 2016 Etienne la Grange. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "CurrencyService.h"
 
 @interface AppDelegate ()
 
@@ -36,6 +37,7 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [[CurrencyService sharedInstance] checkAndUpdateExchangeRates];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {

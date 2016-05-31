@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  BasketListTableViewHeaderCell.h
 //  Shopping Basket
 //
 //  Created by Etienne La Grange on 5/29/16.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface BasketListTableViewHeaderCell : UITableViewCell
 
 @end
-
